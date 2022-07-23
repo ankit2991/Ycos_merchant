@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Merchant App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Costumer_name">Name</string>
+    <string name="Costumer_number">Mobile Number</string>
+    <string name="Costumer_email">Email</string>
+    <string name="Costumer_businessName">Business Name</string>
+    <string name="Costumer_State">State</string>
+    <string name="Costumer_City">City</string>
+    <string name="Costumer_locality">Locality Area</string>
+    <string name="Costumer_address">Address</string>
+    <string name="addService_category">Category</string>
+    <string name="addService_serviceName">Service Name</string>
+    <string name="addService_serviceDes">Service Description</string>
+    <string name="addService_price">Price</string>
+    <string name="addService_status">Status</string>
+
+
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+
+</resources>

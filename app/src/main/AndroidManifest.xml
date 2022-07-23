@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ycos.merchant">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarWash"
+        tools:targetApi="31">
+        <activity
+            android:name="com.ycos.merchant.Activity.SideMenu"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.Services"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.AddService"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.Orders"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.UserDetails"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.Home"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.OtpVerification"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.Login"
+            android:exported="false" />
+        <activity
+            android:name="com.ycos.merchant.Activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

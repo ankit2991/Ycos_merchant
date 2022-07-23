@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/all">
+
+    <fragment
+        android:id="@+id/all"
+        android:name="com.ycos.merchant.Fragments.All"
+        android:label="fragment_all"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/pendingFragment"
+        android:name="com.ycos.merchant.Fragments.PendingFragment"
+        android:label="fragment_pending"
+        tools:layout="@layout/fragment_pending" />
+    <fragment
+        android:id="@+id/rejectFragment"
+        android:name="com.ycos.merchant.Fragments.RejectFragment"
+        android:label="fragment_reject"
+        tools:layout="@layout/fragment_reject" />
+    <fragment
+        android:id="@+id/completeFragment"
+        android:name="com.ycos.merchant.Fragments.CompleteFragment"
+        android:label="fragment_complete"
+        tools:layout="@layout/fragment_complete" />
+</navigation>
